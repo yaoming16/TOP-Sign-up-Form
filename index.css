@@ -195,10 +195,25 @@ button:hover {
 
 a {
     color: rgb(87, 142, 245);
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: rgb(43, 103, 212);
 }
 
 .fig a {
     color: white;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 
+}
+
+.main-section {
+    position: relative;
+}
